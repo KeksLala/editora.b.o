@@ -13,7 +13,7 @@ export default function PaginaPrincipal() {
   const [loginError, setLoginError] = useState('');
 
   const validEmail = 'editoraBo@gmail.com';
-  const validPassword = 'CasoIrmaosNaves';
+  const validPassword = '123';
 
   const handleLogin = (event) => {
     event.preventDefault();
