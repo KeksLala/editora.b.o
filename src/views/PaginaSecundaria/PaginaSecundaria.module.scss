@@ -1,0 +1,81 @@
+.paginaSecundaria {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  background-color: #142724; /* Verde escuro */
+  padding-top: 50px; /* Deixa espaço para o menu */
+}
+
+.menuToggle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #142724; /* Marrom escuro */
+  color: #fad2af; /* Bege 2 */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.menu {
+  position: fixed;
+  top: 40px;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #142724; /* Marrom claro */
+  padding: 10px;
+  transition: transform 0.3s ease;
+  transform: translateX(-100%);
+  z-index: 999;
+}
+
+.show {
+  transform: translateX(0);
+}
+
+.menuItemPerfil,
+.menuItemSair {
+  color: #fad2af; /* Bege 2 */
+  padding: 8px;
+  cursor: pointer;
+}
+
+.menuItemPerfil:hover,
+.menuItemSair:hover {
+  background-color: #d5b18b; /* Bege 1 */
+  color: #3a2b26; /* Marrom escuro */
+}
+
+.menuItemSair {
+  margin-top: 460px;
+}
+
+.booksSection {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, auto);
+  gap: 20px;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.5)), url('/images/fundo5.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.bookImage {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.2s ease-in-out;
+}
+
+.bookImage:hover {
+  transform: scale(1.8); /* Pequeno zoom ao passar o mouse na imagem */
+}

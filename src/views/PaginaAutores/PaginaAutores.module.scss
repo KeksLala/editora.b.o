@@ -1,0 +1,70 @@
+.paginaAutores {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.5)), url('/images/fundo5.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    font-family: "Roboto Mono", monospace;
+}
+  
+  
+  .autorCard {
+    text-align: center;
+  }
+  
+  .card {
+    background-color: #fad2af; // Bege do tema
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+    margin-right: 10px;
+    font-family: "Roboto Mono", monospace;
+    transition: transform 0.5s ease;
+  }
+  .card:hover{
+    transform: scale(1.1) rotate(0.1deg);
+  }
+  
+  .wanted {
+    font-size: 36px;
+    color: #3a2b26; // Marrom escuro
+    margin-bottom: 10px;
+    margin-top: 00px;
+    font-family: "Roboto Mono", monospace;
+  }
+  
+  .autorImagem {
+    border: 10px solid #615467; // Marrom rosê
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .nome {
+    font-size: 22px;
+    color: #615467; // Marrom rosê
+    font-family: "Roboto Mono", monospace;
+  }
+  
+  .voltarBotao {
+    background-color: #fad2af; // Bege claro
+    border: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    color: #3a2b26; // Marrom escuro
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 1010px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+  }
+  
+  .voltarBotao:hover {
+    background-color: #3a2b26; // Bege escuro
+    color:#fad2af;
+    font-family: "Roboto Mono", monospace;
+  }
+  

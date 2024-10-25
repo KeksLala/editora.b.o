@@ -1,0 +1,11 @@
+Azul claro #0d87a2
+Marrom rosê #615467
+Verde escuro #142724
+Azul escuro #034656
+Bege 1 #d5b18b
+Marrom escuro #3a2b26
+Marrom claro #7e6c62
+Bege 2 #fad2af
+
+const validEmail = 'editoraBo@gmail.com';
+const validPassword = 'CasoIrmaosNaves';
