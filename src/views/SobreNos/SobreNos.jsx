@@ -1,10 +1,10 @@
 import React from 'react';
-import Styles from './PaginaAutores.module.scss';
+import Styles from './SobreNos.module.scss';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { Col, Divider, Row } from 'antd';
 
-export default function PaginaAutores() {
+export default function SobreNos() {
     const router = useRouter();
   const autores = [
     {

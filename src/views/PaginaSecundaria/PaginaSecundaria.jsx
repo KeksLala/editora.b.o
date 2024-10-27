@@ -27,11 +27,11 @@ export default function PaginaSecundaria() {
   };
 
   const books = [
-    '/images/casoIrmaos/capa.svg', '/images/livro2.jpg', '/images/livro3.jpg', '/images/livro4.jpg', '/images/livro5.jpg',
-    '/images/livro6.jpg', '/images/livro7.jpg', '/images/livro8.jpg', '/images/livro9.jpg', '/images/livro10.jpg',
-    '/images/livro11.jpg', '/images/livro12.jpg', '/images/livro13.jpg', '/images/livro14.jpg', '/images/livro15.jpg',
-    '/images/livro16.jpg', '/images/livro17.jpg', '/images/livro18.jpg', '/images/livro19.jpg', '/images/livro20.jpg',
-    '/images/livro21.jpg', '/images/livro22.jpg', '/images/livro23.jpg', '/images/livro24.jpg', '/images/livro25.jpg',
+    '/images/casoIrmaos/capa.svg', '/images/livro1.png', '/images/livro2.png', '/images/livro3.png', '/images/livro4.png',
+    '/images/livro5.png', '/images/livro6.png', '/images/livro7.png', '/images/livro8.png', '/images/livro9.jpg',
+    '/images/livro10.jpg', '/images/livro11.jpg', '/images/livro12.jpg', '/images/livro13.jpg', '/images/livro14.jpg',
+    '/images/livro15.jpg', '/images/livro16.jpg', '/images/livro17.jpg', '/images/livro18.jpg', '/images/livro19.jpg',
+    '/images/livro20.jpg', '/images/livro21.jpg', '/images/livro22.jpg', '/images/livro23.jpg', '/images/livro24.jpg',
   ];
 
   return (

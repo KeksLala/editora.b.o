@@ -1,13 +1,48 @@
 .container {
-    position: relative;
-    height: 100vh;
-    background-color: #142724;
-    color: #d5b18b;
+  position: relative;
+  background-color: #142724;
+  color: #d5b18b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+  .slide-content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: justify; // Justifica o texto
+    max-width: 60%; // Reduz a largura para parecer uma página de livro
+    line-height: 1.8; // Aumenta o espaçamento entre linhas
+    background-color: #142724;
+    margin-top: 20px;
+
+
+    h3 {
+      font-size: 26px;
+      font-weight: bold;
+      color: #d5b18b;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 18px;
+      margin-top: 10px;
+      line-height: 1.6;
+      color: #d5b18b;
+      white-space: pre-wrap; // Preserve as quebras de linha para o conteúdo dos slides
+    }
   }
+
+
   
+  .image-slide {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
   .navigation-icon {
     position: absolute;
     cursor: pointer;
@@ -29,35 +64,6 @@
     &:hover {
       transform: scale(1.2) translateY(-50%);
     }
-  }
-  
-  .slide-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    max-width: 80%;
-  
-    h3 {
-      font-size: 24px;
-      margin-bottom: 20px;
-      font-weight: bold;
-      color: #d5b18b;
-    }
-  
-    p {
-      font-size: 18px;
-      margin-top: 10px;
-      line-height: 1.6;
-      color: #d5b18b;
-    }
-  }
-  
-  .image-slide {
-    width: 300px;
-    height: 400px;
-    margin-bottom: 20px;
   }
   
   .menuToggle {
@@ -91,23 +97,24 @@
   .show {
     transform: translateX(0);
   }
-  
   .menuItemPerfil,
   .menuItemSair,
+  .menuItemSobreNos,
   .menuItemBiblioteca {
-    color: #142724; /* Bege 2 */
-    padding: 10px;
+    color: #3a2b26; /* Bege 2 */
+    padding: 8px;
     cursor: pointer;
   }
   
   .menuItemPerfil:hover,
   .menuItemSair:hover,
-  .menuItemBiblioteca {
-    background-color: #d5b18b; /* Bege 1 */
-    color: #142724; /* Marrom escuro */
+  .menuItemSobreNos:hover,
+  .menuItemBiblioteca:hover {
+    background-color: #3a2b26; /* Bege 1 */
+    color: #d5b18b; /* Marrom escuro */
   }
   
   .menuItemSair {
-    margin-top: 420px;
+    margin-top: 380px;
   }
   

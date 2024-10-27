@@ -1,0 +1,90 @@
+.paginaPerfil {
+  padding: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('/images/fundo5.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.perfilContainer {
+  background-color: #fad2af;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.perfilHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.logoEditora {
+  border-radius: 50%;
+  border: 4px solid #615467;
+}
+
+.infoContainer {
+  text-align: left;
+}
+
+.nome {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3a2b26;
+}
+
+.pronome {
+  font-size: 14px;
+  color: #615467;
+}
+
+.descricao {
+  font-size: 16px;
+  color: #3a2b26;
+}
+
+.bioSection {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.bioTitulo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #3a2b26;
+  margin-bottom: 10px;
+}
+
+.bioTexto {
+  font-size: 16px;
+  color: #615467;
+  line-height: 1.5;
+}
+
+.voltarBotao {
+  background-color: #3a2b26;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fad2af;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.voltarBotao:hover {
+  background-color: #fad2af;
+  color: #3a2b26;
+}

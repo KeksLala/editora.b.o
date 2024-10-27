@@ -1,0 +1,135 @@
+.container {
+    position: relative;
+    background-color: #142724;
+    color: #d5b18b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+    .slide-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: justify; // Justifica o texto
+      max-width: 60%; // Reduz a largura para parecer uma página de livro
+      line-height: 1.8; // Aumenta o espaçamento entre linhas
+      background-color: #142724;
+      margin-top: 20px;
+  
+  
+      h3 {
+        font-size: 26px;
+        font-weight: bold;
+        color: #d5b18b;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+  
+      p {
+        font-size: 18px;
+        margin-top: 10px;
+        line-height: 1.6;
+        color: #d5b18b;
+        white-space: pre-wrap; // Preserve as quebras de linha para o conteúdo dos slides
+      }
+    }
+  
+  
+    
+    .image-slide {
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+    .navigation-icon {
+      position: absolute;
+      cursor: pointer;
+      font-size: 24px;
+      transition: transform 0.3s ease;
+    
+      &.left {
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    
+      &.right {
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    
+      &:hover {
+        transform: scale(1.2) translateY(-50%);
+      }
+    }
+    
+    .menuToggle {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: #d5b18b; 
+      color: #142724; /* Bege 2 */
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      cursor: pointer;
+      z-index: 1000;
+    }
+    
+    .menu {
+      position: fixed;
+      top: 40px;
+      left: 0;
+      height: 100%;
+      width: 200px;
+      background-color: #d5b18b; /* Marrom claro */
+      padding: 10px;
+      transition: transform 0.3s ease;
+      transform: translateX(-100%);
+      z-index: 999;
+    }
+    
+    .show {
+      transform: translateX(0);
+    }
+    .menuItemPerfil,
+    .menuItemSair,
+    .menuItemSobreNos,
+    .menuItemBiblioteca {
+      color: #3a2b26; /* Bege 2 */
+      padding: 8px;
+      cursor: pointer;
+    }
+    
+    .menuItemPerfil:hover,
+    .menuItemSair:hover,
+    .menuItemSobreNos:hover,
+    .menuItemBiblioteca:hover {
+      background-color: #3a2b26; /* Bege 1 */
+      color: #d5b18b; /* Marrom escuro */
+    }
+    
+    .menuItemSair {
+      margin-top: 340px;
+    }
+    .voltarBotao {
+      background-color: #3a2b26;
+      border: none;
+      font-size: 14px;
+      color: #fad2af;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      font-family: "Roboto Mono", monospace;
+      font-weight: bold;
+      padding: 10px 10px 10px;
+      display: inline;
+      margin-top: 10px;
+
+    }
+    

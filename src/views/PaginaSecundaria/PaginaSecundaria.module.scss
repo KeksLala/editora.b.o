@@ -39,20 +39,22 @@
 }
 
 .menuItemPerfil,
-.menuItemSair {
+.menuItemSair,
+.menuItemSobreNos {
   color: #fad2af; /* Bege 2 */
   padding: 8px;
   cursor: pointer;
 }
 
 .menuItemPerfil:hover,
-.menuItemSair:hover {
+.menuItemSair:hover,
+.menuItemSobreNos:hover {
   background-color: #d5b18b; /* Bege 1 */
   color: #3a2b26; /* Marrom escuro */
 }
 
 .menuItemSair {
-  margin-top: 460px;
+  margin-top: 430px;
 }
 
 .booksSection {
