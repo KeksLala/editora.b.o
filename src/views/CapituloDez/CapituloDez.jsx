@@ -32,12 +32,12 @@ export default function CapituloDez() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
     {
-      title: 'Capítulo nove: A traição que veio de perto',
+      title: 'Capítulo Dez: O rio da agonia',
       
     },
     {
       title: 'Joaquim Naves',
-      image: '/images/casoIrmaos/cacetete.png',
+      image: '/images/casoIrmaos/arroz.svg',
       alt: 'Capa do livro',
     },
     {
@@ -131,7 +131,7 @@ Não queria morrer. Não podia morrer.
     },
     {
       title:'Tenente Francisco Vieira',
-      image: '/images/casoIrmaos/cacetete.png',
+      image: '/images/casoIrmaos/cacetete.svg',
       alt: 'Capa do livro',
     },
     {

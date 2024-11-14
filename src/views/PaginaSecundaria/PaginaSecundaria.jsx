@@ -3,6 +3,7 @@ import Styles from './PaginaSecundaria.module.scss';
 import { FaBars, FaTimes, FaUser, FaSignOutAlt } from 'react-icons/fa'; 
 import Image from 'next/image'; 
 import { useRouter } from 'next/router';  
+import { PiMagnifyingGlassFill } from "react-icons/pi";
 
 export default function PaginaSecundaria() {
   const router = useRouter();  
@@ -42,9 +43,13 @@ export default function PaginaSecundaria() {
         </div>
 
         <div className={`${Styles.menu} ${isMenuVisible ? Styles.show : ''}`}>
-          <div className={Styles.menuItemPerfil} onClick={() => router.push('/autores')}>
+          <div className={Styles.menuItemPerfil} onClick={() => router.push('/perfil')}>
             <FaUser style={{ marginRight: '8px' }} />
             Visualizar Perfil
+          </div>
+          <div className={Styles.menuItemSobreNos} onClick={()=> router.push('/sobre-nos')}>
+            <PiMagnifyingGlassFill style={{ marginRight: '8px' }} />
+            Sobre nós
           </div>
           <div className={Styles.menuItemSair} onClick={handleLogout}>
             <FaSignOutAlt style={{ marginRight: '8px' }} />

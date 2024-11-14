@@ -80,12 +80,12 @@ export default function CasoIrmaosNaves() {
       8. Um sopro de esperança<br />
       &emsp;a. Advogado Dr. Alamy<br />
       &emsp;b. Tenente Francisco Vieira<br />
-      9. <span onClick={() => navigateToPage('/capitulo-dez')} style={{ cursor: 'pointer', color: '#fad2af', textDecoration: 'underline' }}>
-            A traição que veio de perto
-      </span><br/>
+      9. A traição que veio de perto<br/>
       &emsp;a. Guilherme de Malta Sobrinho<br />
       &emsp;b. Tenente Francisco Vieira<br />
-      10. O rio da agonia<br />
+      10. <span onClick={() => navigateToPage('/capitulo-dez')} style={{ cursor: 'pointer', color: '#fad2af', textDecoration: 'underline' }}>
+         O rio da agonia<br />
+     </span>
       &emsp;a. Joaquim Naves<br />
       &emsp;b. Sebastião Naves<br />
       &emsp;c. Tenente Francisco Vieira<br />
